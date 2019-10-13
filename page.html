@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strona kontaktowa</title>
+</head>
+<body>
+<form action="index.html" method="get">
+    <label> Imię: <input type="text" name="firstName"></label>
+    <label> Nazwisko: <input type="text" name="lastName"></label>
+    <label> Hasło <input type="password" name="password"></label>
+    <label> E-mail <input type="email" name="email"></label>
+    <label> Numer <input type="number" name="number" min="1" max="6"></label>
+    <label>URL <input type="url" name="url"></label>
+    <label>
+      <select name="gender">
+        <option>Kobieta</option>
+        <option>Mężczyzna</option>
+      </select>
+    </label>
+    <label> Wiadomość:
+        <textarea name="message"></textarea>
+    </label>
+    <button type="submit">Wyślij</button>
+    <button type="reset">Wyczyść</button>
+</form>
+</body>
+</html>
